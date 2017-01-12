@@ -13,6 +13,21 @@ public class Sort {
 		for (int i = 0; i < count; i++) {
 			System.out.print( array[ i ] + " " );
 		}
+	
+		for(int j=0;j<count;j++){
+		for(int i =j+1;i<count;i++){
+		
+			if(array[j]<array[i]){
+				temp=array[j];
+				array[j]=array[i];
+				array[i]=temp;
+				
+			}
+			
+			}
+		}
+		
+		
 		
 		
 		//
